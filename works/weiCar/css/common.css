@@ -1,0 +1,64 @@
+@charset "utf-8";
+/*整站公共部分*/
+body{background: #f8f8f8;}
+.bgwhite{ background: #fff;}
+.white{ color: #fff;}
+.orange{ color: #f90;}
+.fs20{ font-size: 20px;}
+.fs36{ font-size: 36px;}
+.fs24{ font-size: 24px;}
+.fs16{ font-size: 16px;}
+.fs14{ font-size: 14px;}
+.fs12{ font-size: 12px;}
+.c_fbb{ color: #fbb;}
+.c_999{ color: #999;}
+.c_666{ color: #666;}
+.c_333{ color: #333;}
+.c_e54{ color: #e54;}
+.btnbg_red{ background: #e54; border-radius: 5px; display: block; width: 90%; margin: 20px auto; font-size: 16px; padding: 10px 0; color: #fff;word-spacing:10px;text-align:center;}
+.btnbg_gray{ background: #aaa; border-radius: 5px; display: block; width: 90%; margin: 20px auto;font-size: 16px; padding: 10px 0; color: #fff;word-spacing:10px;text-align:center;}
+.btntxt_blue{ color: #7be;}
+
+.btn_blue{width:80%; color: #5c92c9;text-align:right;display:inline-block;font-size:16px;}
+.error{ padding:10px;background:#ffd8d8;color:#d62421;margin-top:-20px;text-align:left;}
+.error p{width:90%;display:block;margin:0 auto; font-size:16px;}
+.hide{display:none;}
+.noborder{ border: none; width: 90%; outline: none;}
+
+/*头部标题*/
+.header{font-weight:normal; font-size:1.8em; line-height:60px;width:100%; color:#000; position:fixed; top:0; z-index: 9; text-align:center; background:#f8f8f8;}
+.goback{ display: block; width: 60px; height: 60px; background: #fff; position: absolute; top:0; background: url("../0125luodiye/images/common/goback.png") no-repeat center center; background-size: auto 50%;}
+.main{ margin-top:60px; padding:20px 0;text-align: center; overflow: hidden;}
+.mt60{ padding-top: 0;}
+
+.checked{line-height:50px;color:#727272;text-align:left;}
+.checked i{  float:left; width: 30px;height: 30px; margin:12px 0 0 5%;}
+.checked i.yes{background:url(../0125luodiye/images/public/mg_check.png) no-repeat; background-size:80% auto ;}
+.checked i.no{background:url(../0125luodiye/images/public/mg_rectangle.png) no-repeat; background-size:80% auto ;}
+.checked em{display:inline-block;font-size:16px;}
+.checked a{color:#3bbcff;font-size:16px;}
+
+/*footer公用版权样式*/
+footer{  width: 100%; padding: 10px 0; position: fixed; bottom: 0; }
+footer p{ text-align: center; color: #aaa; line-height: 20px;}
+footer .links a{ color: #aaa; display: inline-block; width: 30%; font-size: 1.4em;}
+footer .cr_link{ margin-top: 5px;}
+footer .c_link1{ display: inline-block; width: 32px; height: 30px; background: url("../0125luodiye/images/common/cr_link01.jpg") no-repeat center center; background-size: auto 100%; }
+footer .c_link2{ display: inline-block; width: 30px; height: 30px; background: url("../0125luodiye/images/common/cr_link02.jpg") no-repeat center center; background-size: auto 100%; margin: 0 10px; }
+footer .c_link3{ display: inline-block; width: 78px; height: 30px; background: url("../0125luodiye/images/common/cr_link03.jpg") no-repeat center center; background-size: auto 100%; }
+.nofixed{ position: static;}
+
+/*提示弹窗*/
+.hintbox{ position: fixed; left: 50%; top:50%; width: 80%; height: 60px; margin-left: -40%; margin-top: -30px;text-align: center;}
+.hintbox .mask{ position: absolute; width: 100%; height: 100%; background: #000; opacity: 0.4; border-radius: 5px;}
+.hintbox p{ margin:10px; display: inline-block;  line-height:40px;background: url("../0125luodiye/images/login/mg_sucess.png") no-repeat left center; background-size: auto 100%; position: relative; z-index: 9; font-size: 2em; color: #fff; padding-left: 50px;}
+
+/*支付密码弹窗*/
+.popup{ position: absolute; width: 100%; height: 100%; z-index: 10; top: 0;}
+.popup .mask{ width: 100%; height: 100%; position: absolute; background: #000; opacity: 0.4;}
+.popbox{ width: 80%; height: 150px; background: #fff; position: absolute; left: 50%; top:50%; margin-left: -40%; margin-top: -75px; border-radius: 10px;}
+.popbox h2{ text-align: center; font-size: 1.6em; line-height: 50px;}
+.popbox input{ display: block; width: 80%; margin: 5px auto; padding: 6px 2%; border:solid 1px #ddd; border-radius: 5px;}
+.btnbox{ width: 84%; margin:12px auto; text-align: center; overflow: hidden;}
+.btnbox a{ border-radius: 5px; background: #fff; display: inline-block; width: 42%; padding: 5px; border: solid 1px #e54; font-size: 14px; color: #e54; float: left; }
+a.reg-bg{ background: #e54; color: #fff; float: right;}
