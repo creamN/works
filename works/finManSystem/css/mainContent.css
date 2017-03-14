@@ -1,0 +1,67 @@
+/*公用部分*/
+.content{ width: 980px; padding: 20px 10px; font-family: "microsoft yahei"; font-size: 14px; overflow: hidden;}
+.title{ padding: 10px 40px; border-bottom: 1px solid #eee; overflow: hidden;}
+.title h2{ display: block; padding-left: 6px; margin: 6px 0; line-height: 18px; border-left: 4px solid #e54; font-weight: normal; font-size: 18px;}
+/*资料管理*/
+.infomation{ overflow: hidden;}
+.infomation .name{ height: 100px; padding: 20px 40px; overflow: hidden; border-bottom: 1px solid #ddd;}
+.infomation .name img{ width: 100px; height: 100px; display: block; margin-right: 30px;}
+.infomation .name span{ display: block; margin-top: 20px; font-size: 14px; color: #aaa;}
+.infomation .info_list{ padding: 40px; overflow: hidden;}
+.infomation .int{ height: 28px; line-height: 28px; margin-bottom: 20px;}
+.infomation .int label{ display: inline-block; float: left; width: 80px; text-align: right; margin-right: 10px; color: #333;}
+.infomation .int input{ width: 180px; display: inline-block; float: left; height: 28px; line-height: 28px; padding: 0 8px; border: 1px solid #ddd; border-radius: 3px; color: #666; margin-right: 10px;}
+.infomation .submit_box .submit{ display: block; margin: 10px 0 20px 90px; width: 180px; height: 36px; border: 1px solid #e1e1e1; outline: none; border-radius: 5px; font-size: 16px; line-height: 36px; text-align: center; color: #fff; background: #ea544a;}
+
+/*密码修改*/
+.user_pwd{ padding: 40px 20px; overflow: hidden;}
+.user_pwd .login{ display: block; overflow: hidden; font-size: 14px; color: #333;}
+.user_pwd .login a{ text-decoration: none;}
+.user_pwd .login .int{ padding-top: 20px; line-height: 43px; position: relative; overflow: hidden;}
+.user_pwd .int p{ display: none; position: absolute; top: 0; left: 90px; padding-left: 20px; height: 20px; line-height: 20px; color: #999; font-size: 12px;}
+.user_pwd .int p .warn{ display: inline-block; width: 14px; height: 14px;  background: url("../images/warn.jpg") no-repeat center center; position: absolute; top: 3px; left: 0; }
+.user_pwd .login label{ display: inline-block; float: left; width: 70px; text-align: right; margin-right: 20px;}
+.user_pwd .login .inputTxt{ display:inline-block;  float: left; padding-left: 15px; width: 255px; height: 41px; line-height: 41px;  border: 1px solid #e1e1e1; border-radius: 4px; color: #a9a9a9; outline: none;}
+.user_pwd .login .submit{ display: block; margin: 20px 0 20px 90px; width: 274px; height: 48px; border: 1px solid #e1e1e1; outline: none; border-radius: 5px; font-size: 18px; line-height: 48px; text-align: center; color: #fff; background: #ea544a;}
+/*余额查询*/
+.yuE{ padding: 20px 40px; overflow: hidden;}
+.yuE .charge li{  float: left; padding: 30px;overflow: hidden; height: 120px;}
+.yuE .charge .sum{ width: 290px; background: #f5f5f5;}
+.yuE .sum p{  line-height: 30px; color: #999;}
+.yuE .sum p span{ display: inline-block; width: 100px; text-align: right;}
+.yuE .sum p em{ color: #333;}
+/*我的订单*/
+.user_order{ overflow: hidden;}
+.user_order .income{overflow: hidden; margin-bottom: 20px;}
+.user_order .income li{ float: left; width: 240px; height: 120px; padding: 40px; color: #999;}
+.user_order .income li em{ display: block; font-size: 22px; line-height: 35px; margin-top: 20px;}
+.user_order .income li p{ display: block; height: 120px;}
+.user_order .income p em{ color: #333; font-size: 24px;}
+.user_order .income .benfit{ background: #ff847b; color: #fff;}
+.user_order .income .benfit em{ font-size: 48px; margin-top: 40px;}
+.user_order .income .asset p{ border-right: 1px dashed #ddd;}
+/*订单详情*/
+.order_detail{ padding: 20px 40px; overflow: hidden;}
+.order_detail .table th,.order_detail .table td{ border: 1px solid #ccc; padding: 8px 20px; color: #333; }
+.order_detail .table th{ background: #e8e8e8; text-align: right;}
+.order_detail .table td{ text-align: left;}
+
+/*用户留言/系统消息*/
+.user_mes,.user_notice{ overflow: hidden;}
+
+/*添加留言*/
+.leave_mes{ padding: 20px 40px; width: 300px; overflow: hidden;}
+.leave_mes textarea{ display: block; width: 100%;}
+.leave_mes .submit{ display: block; margin: 20px auto; padding: 8px 20px; border: none; outline: none; color: #fff; font-family: "microsoft yahei"; background: #e54; border-radius: 3px;}
+.leave_mes .submit:hover{ background: #ee0000;}
+
+/*表格样式*/
+th,td{ font-weight: normal; padding: 10px 18px; color: #666; border: 1px solid #ddd; text-align: center;}
+thead th{ background: #f1f4f7; color: #333;}
+tbody td{ color: #666;}
+table .btn{ padding: 4px 16px; margin: 0 5px; background: #e8e8e8; font-family: "microsoft yahei"; border: none;}
+table .btn:hover{ background: #ccc;}
+
+/*公用*/
+.fl{ float: left;}
+.fr{ float: right;}

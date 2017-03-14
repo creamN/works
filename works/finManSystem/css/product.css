@@ -1,0 +1,53 @@
+/*总产品页*/
+.product { margin: 50px 0; font-family: "microsoft yahei";}
+.product .inside{ background: #fff;}
+.product .title{ padding: 10px 40px; border-bottom: 1px solid #ddd; overflow: hidden;}
+.product .title h2{ display: block; padding-left: 10px; line-height: 24px; font-size: 20px; border-left: 4px solid #e54; font-weight: normal;}
+.product .pro_list{ padding: 50px 0 30px; overflow: hidden;}
+.pro_list .pro{ float: left; width: 250px; padding: 30px 0; margin-left: 40px;}
+.pro_list .pro h2{ margin: 10px 0; font-size: 18px; font-weight: normal; color: #fff; text-align: center;}
+.pro_list .pro1{ margin-left: 0; background: #fcad3d;}
+.pro_list .pro2{ background: #39b7ee;}
+.pro_list .pro3{ background: #9779cc;}
+.pro_list .pro4{ background: #9ac665;}
+.pro_list .pro_con{ width: 210px; font-size: 14px; padding: 30px 20px 10px; color: #fff; text-align: left;}
+.pro_list .pro_con .pro_detail{ display: block; width: 150px; margin: 50px auto 0; padding: 8px 0; background: #fff; border-radius: 5px; font-size: 16px; text-align: center; text-decoration: none;}
+.pro_list .pro1 .pro_detail{ color: #fcad3d;}
+.pro_list .pro2 .pro_detail{ color: #39b7ee;}
+.pro_list .pro3 .pro_detail{ color: #9779cc;}
+.pro_list .pro4 .pro_detail{ color: #9ac665;}
+/*同一分类详情页*/
+.same_cate .pro_list{ padding: 0; border-bottom: 1px solid #ddd;}
+.pro_list .same_pro{ border-top: 1px solid #ddd; padding: 20px; overflow: hidden;}
+.pro_list .list_l{ width: 800px; overflow: hidden;}
+.pro_list .list_l h4{ display: block; color: #333; font-size: 14px; line-height: 18px; overflow: hidden; margin-bottom: 10px;}
+.pro_list .list_l ul{ padding: 10px 0;}
+.pro_list .list_l ul li{ float: left; width: 240px; color: #999; font-size: 14px;}
+.pro_list .list_l ul span{ display: block; margin-top: 10px;}
+.pro_list .list_l ul em{ color: #e54; font-size: 16px;}
+.pro_list .list_r{ padding: 0 30px 10px 0; overflow: hidden;}
+.pro_list .list_r span{ font-size: 14px;}
+.pro_list .list_r em{ color: #666; font-size: 16px;}
+.pro_list .list_r a{ width: 120px; display: block; padding: 8px 20px; background: #ff9a38; color: #fff; border-radius: 5px; text-align: center; margin-top: 20px; text-decoration: none; font-size: 14px;}
+.pro_list .list_r a:hover{ background: #ff7500;}
+/*产品详情*/
+/*产品详情*/
+.pro_detail .title{ margin-bottom: 40px;}
+.detail_con{ width: 750px; height: 200px; padding: 20px 0; overflow: hidden;}
+.detail_con li{ float: left; padding: 40px 20px; color: #999; font-size: 14px; width: 165px; overflow: hidden;}
+.detail_con .proPic{ width: 320px; padding: 0; margin-right: 20px;}
+.detail_con .proPic img{ display: block; width: 320px; height: 180px;}
+.detail_con li span{ display: block; margin-top: 10px; color: #333; line-height: 24px;}
+.detail_con li span em{ color: #7ae; font-size: 18px;}
+.detail_con li span strong{ font-weight: normal; font-size: 24px;}
+.pro_join{ width: 350px; height: 200px; padding: 20px 50px; overflow: hidden; background: #f5f5f5;}
+.pro_join p{ font-size: 14px;}
+.pro_join p span{ color: #999;}
+.pro_join p em{ font-size: 24px;}
+.pro_join .pro_invest{ width: 220px; margin-top: 30px; padding: 5px; border: 1px solid #ddd; border-radius: 5px; overflow: hidden; font-size: 14px; color: #333;}
+.pro_invest input,.pro_invest span{ display: block; height: 24px; line-height: 24px;}
+.pro_invest input{ width: 180px; padding-left: 5px; border: none; outline: none; color: #999; background: none;}
+.pro_join .join_btn{ display: block; width: 200px; margin-top: 30px; padding: 10px 0; border-radius: 5px; color: #fff; font-size: 16px; text-decoration: none; text-align: center; border: none; outline: none;}
+.pro_join .join_yes{ background: #FD8238;}
+.pro_join .join_not{ background: #aaa;}
+

@@ -1,0 +1,17 @@
+/*注册、登录*/
+/*loginBox*/
+.loginBox{ margin: 45px auto; padding: 50px; width: 498px; border: 1px solid #e1e1e1;  background: #fff; overflow: hidden;}
+/*login_cont*/
+.loginBox .login_cont{ width: 450px; margin: 0 auto;}
+.loginBox .login{ display: block; overflow: hidden; font-size: 14px; color: #333;}
+.loginBox .login a{ text-decoration: none;}
+.loginBox .login .int{ padding-top: 20px; line-height: 43px; position: relative; overflow: hidden;}
+.loginBox .int p{ display: none; position: absolute; top: 0; left: 90px; padding-left: 20px; height: 20px; line-height: 20px; color: #999; font-size: 12px;}
+.loginBox .int p .warn{ display: inline-block; width: 14px; height: 14px;  background: url("../images/warn.jpg") no-repeat center center; position: absolute; top: 3px; left: 0; }
+.loginBox .login label{ display: inline-block; float: left; width: 70px; text-align: right; margin-right: 20px;}
+.loginBox .login .inputTxt{ display:inline-block;  float: left; padding-left: 15px; width: 255px; height: 41px; line-height: 41px;  border: 1px solid #e1e1e1; border-radius: 4px; color: #a9a9a9; outline: none;}
+.loginBox .login .submit{ display: block; margin: 20px 0 20px 90px; width: 274px; height: 48px; border: 1px solid #e1e1e1; outline: none; border-radius: 5px; font-size: 18px; line-height: 48px; text-align: center; color: #fff; background: #ea544a;}
+.loginBox .login .code input{ width: 145px; margin-right: 20px;}
+.loginBox .login .code .code_img{ display: block; width: 88px; height: 43px; border: 1px solid #e1e1e1;}
+.loginBox .login .code img{ display: block; width: 88px; height: 43px; }
+

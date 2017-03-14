@@ -1,0 +1,30 @@
+/* 清除内外边距 */
+body, div, h1, h2, h3, h4, h5, h6, p,
+dl, dt, dd, ul, ol, li,
+form, fieldset, legend, button, textarea,
+table, tbody, tfoot, thead, th, td,
+footer, header, menu, nav, section, time, mark, audio, video{
+	margin:0;
+	padding:0;
+	outline:0;
+	background:transparent;
+}
+/* 设置默认字体 */
+body,button, input, select, textarea {
+    font:12px/1.5 arial, \5b8b\4f53, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 { font-size:100%; }
+em,i { font-style:normal;}
+small { font-size:12px; }
+/* 重置列表元素 */
+ul, ol, li { list-style:none; }
+/* 重置文本格式元素 */
+a { text-decoration:none; outline:thin none; }
+a:hover { text-decoration:underline; }
+/* 重置表单元素 */
+button, input, select, textarea { font-size:100%; } /* 使得表单元素在 ie 下能继承字体大小 */
+/* 重置表格元素 */
+table { border-collapse:collapse; border-spacing:0; }
+/* 清除浮动 */
+.clear{ clear:both;}
+.clearfix:after{ visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0;}

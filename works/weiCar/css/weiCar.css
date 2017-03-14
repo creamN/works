@@ -1,0 +1,71 @@
+html{ background: #1c9fe2;}
+.ad0309{ background: -webkit-linear-gradient(#4abdf8,#1c9fe2); background: linear-gradient(#4abdf8,#1c9fe2);}
+.ad0309 img{ display: block; width: 100%;  margin: 0 auto;}
+
+/*banner*/
+.ad0309 .banner{ width: 100%; position: relative; overflow: hidden;}
+.ad0309 .banner_caption{ display: block; width: 60%; height: 32px; line-height: 32px; text-align: center; font-size: 14px; color: #0464b6; background: #fff; border-radius: 16px; position: absolute; top: 30%; left: 20%;}
+.ad0309 .banner_content li{ position: absolute;}
+.ad0309 .banner_content li.coin1{ top: 20%; right: 10%; width: 12%; opacity: 0.5; -webkit-animation: coin1 5s linear infinite; animation: coin1 5s linear infinite;}
+.ad0309 .banner_content li.coin2{ bottom: 10%; right: -10px; width: 22%; opacity: 0.5; -webkit-transform: rotateY(180deg); transform: rotateY(180deg); -webkit-animation: coin2 5s linear infinite; animation: coin2 5s linear infinite;}
+.ad0309 .banner_content li.coin3{ bottom: -25px; left: -20px; width: 27%;}
+.ad0309 .banner_content li.coin4{ bottom: -5px; left: 45%; width: 10%;}
+.ad0309 .banner_content li.title{ bottom: 15%; left: 15%; width: 70%;}
+@-webkit-keyframes coin1{
+    0%{ right: 12%;}
+    50%{ right: 3%;}
+    100%{ right: 12%;}
+}
+@keyframes coin1{
+    0%{ right: 10%;}
+    50%{ right: 3%;}
+    100%{ right: 10%;}
+}
+@-webkit-keyframes coin2{
+    0%{ right: -10px;}
+    50%{ right: 10px;}
+    100%{ right: -10px;}
+}
+@keyframes coin2{
+    0%{ right: -10px;}
+    50%{ right: 10px;}
+    100%{ right: -10px;}
+}
+/*main*/
+.ad0309 .main{ background: #fff; width: 100%; overflow: hidden;}
+.ad0309 .button{ display: block; width: 100%; height: 36px; line-height: 36px; text-align: center; color: #fff; font-size: 16px; border: 1px solid #e82770; border-radius: 5px; background: -webkit-linear-gradient(#ff76aa,#ff438a 40%); background: linear-gradient(#ff76aa,#ff438a 40%);}
+/*提交*/
+.ad0309 .refer{ padding: 20px 8%; width: 84%;}
+.ad0309 .refer .input_box{ width: 100%; margin-bottom: 15px; font-size: 13px; border: 1px solid #ccc; border-radius: 5px; background: -webkit-linear-gradient(#f1f1f1,#fff 40%); background: linear-gradient(#f1f1f1,#fff 40%); overflow: hidden;}
+.ad0309 .refer label,.ad0309 .refer input{ display: block; float: left; height: 32px; line-height: 32px;}
+.ad0309 .refer label{ width: 60px; padding-left: 10px;}
+.ad0309 .refer input{ width: 60%; padding: 0 8px; color: #cbcbcb; outline: 0; border: none; background: transparent;}
+.ad0309 .refer .password_box{ width: 100%; height: 32px; border-bottom: 1px solid #ccc; overflow: hidden;}
+.ad0309 .refer .code_box{ height: 32px;}
+.ad0309 .refer .code{ width: 35%;}
+.ad0309 .code_box .code_img{ display: block; float: right; height: 32px; width: auto;}
+.ad0309 .choose{ width: 100%; margin-bottom: 15px; height: 32px; line-height: 32px; color: #999; overflow: hidden;}
+.ad0309 .choose .checked{ display: none;}
+.ad0309 .choose i{ display: block; float: left; margin: 6px 10px 0 6px; width: 18px; height: 18px; background: url("../images/unchecked.png") center center no-repeat; background-size: 100% auto;}
+.ad0309 .choose .yes{ background: url("../images/checked.png") center center no-repeat; background-size: 100% auto;}
+.ad0309 .choose a{ color: #7cade8;}
+/*验证手机号*/
+.ad0309 .verify{ padding: 20px 8%; width: 84%;}
+.ad0309 .verify h2,.ad0309 .reg_success h2{ display: block; width: 100%; height: 50px; margin-bottom: 20px; line-height: 50px; color: #ffbf50; font-size: 18px; text-align: center; background: url("../images/star.png") no-repeat center center; background-size: auto 100%;}
+.ad0309 .verify p{ display: block; width: 100%; height: 25px; margin-bottom: 20px; line-height: 25px; text-align: center; color: #fff; background: -webkit-linear-gradient(left,#fff,#a4defb 20%,#a4defb 80%,#fff); background: linear-gradient(to right,#fff,#a4defb 20%,#a4defb 80%,#fff);}
+.ad0309 .verify .check_box{ width: 100%; height: 34px; margin-bottom: 20px; overflow: hidden; }
+.ad0309 .verify input{ display: inline-block; height: 32px; padding: 0; line-height: 32px; text-align: center; border: 1px solid #ccc; border-radius: 5px;}
+.ad0309 .verify .ver_num{ width: 50%; float: left; background: -webkit-linear-gradient(#f1f1f1,#fff 40%); background: linear-gradient(#f1f1f1,#fff 40%);}
+.ad0309 .verify .gain{ width: 40%; height: 34px; float: right; border-color: #e8c842; color: #d1b028; background: -webkit-linear-gradient(#fff083,#ffea50 40%); background: linear-gradient(#fff083,#ffea50 40%);}
+/*注册成功*/
+.ad0309 .reg_success{ padding: 20px 0;}
+.ad0309 .reg_success .gift{ width: 88%; margin: 0 12% 20px 0;}
+.ad0309 .reg_success .button{ width: 84%; margin: 0 auto;}
+/*bottom*/
+.ad0309 .bottom{ padding: 30px 0 20px;}
+.ad0309 .bottom_content{ width: 90%; padding: 0 5%; margin-bottom: 20px; overflow: hidden;}
+.ad0309 .bottom_content li{ float: left; width: 30%; margin-right: 5%; text-align: center; color: #fff; background: url("../images/bottom_li.png") no-repeat center center; background-size: auto 100%;}
+.ad0309 .bottom_content .last{ margin-right: 0;}
+.ad0309 .bottom p{ color: #0464b6; text-align: center;}
+/*公用*/
+.hide{ display: none;}

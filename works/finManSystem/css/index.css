@@ -1,0 +1,31 @@
+/*banner*/
+.banner{ width: 100%; height: 380px; margin: 0 auto; z-index: 1; position: relative; overflow: hidden;}
+.banner .switchAlpha{ position:relative; height: 380px; background: url("../images/loading.gif") no-repeat center #eee;}
+.banner .switchAlpha li{ width: 100%; height: 380px;position: absolute; z-index: 1; opacity: 0; background-repeat: no-repeat; background-position: center top; }
+.banner .switchAlpha li img{ display: block; width: 100%; height: 380px;}
+.banner .switchAlpha li.current{ z-index: 2; opacity: 1;}
+.banner .switchAlpha li a{ display: block; cursor: pointer; height: 380px;}
+.banner .switchAlpha .dot{position:absolute; z-index:11;  height: 30px; width:140px; margin-left: 50%; top:350px; left:-70px; text-align: center;}
+.banner .switchAlpha .dot a{display:inline-block; width:15px; height:15px;margin-right:5px; background:#333; border-radius: 15px; cursor:pointer; opacity: 0.7;}
+.banner .switchAlpha .dot a:hover,.banner .switchAlpha .dot a.hover{background:#fff; color:#fff; text-decoration:none; opacity: 1;}
+/*guide*/
+.guide{ display: block; text-decoration: none; overflow: hidden;}
+.guide h2{ display: block; height: 60px; padding-left: 25px; line-height: 60px; font-size: 16px; color: #222; border-bottom: 1px solid #aaa;}
+.guide .guide_con{ margin: 20px 0; height: 37px; line-height: 37px; padding-left: 7px;}
+.guide_con li{ float: left;}
+.guide_con .step{ width: 160px; padding-left: 75px; font-style: italic; background: url("../images/guide_step.png") no-repeat;}
+.guide_con .step span{ font-size: 20px; color: #1a60a8;}
+.guide_con .step01{ margin-left: 25px; background-position: 0 0;}
+.guide_con .step02{ margin-left: 25px; background-position: 0 -37px;}
+.guide_con .step03{ margin-left: 25px; background-position: 0 -74px;}
+.guide_con .step04{ margin-left: 25px; background-position: 0 -111px;}
+.guide_con .step_arrow{ width: 22px; height: 37px; background: url("../images/guide_arrow.png") no-repeat center center;}
+/*product*/
+.product{ background: #f4f4f4; padding: 20px 0; overflow: hidden;}
+.product .pro_list{ font-family: "microsoft yahei";}
+.pro_list li{ float: left; width: 300px;  overflow: hidden;}
+.pro_list li h3{ display: block; height: 48px; text-align: center; line-height: 48px; font-size: 20px;  font-weight: normal;}
+.pro_list .pro_intro{ display: block; margin-top: 20px; width: 240px;  padding: 0 20px; line-height: 24px;}
+.pro_list .pro_intro em{ font-size: 14px; color: #1a60a8;}
+.pro_list .pro_detail{ display: block; width: 180px; height: 40px; line-height: 40px; margin: 60px auto 30px; text-align: center; background: #ff8a10; border-radius: 8px; text-decoration: none; color: #fff; font-size: 14px;}
+.pro_list .pro_detail:hover{ background: #ff7500; color: #eee;}

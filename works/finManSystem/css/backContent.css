@@ -1,0 +1,69 @@
+/*公用部分*/
+.content{ padding: 20px 10px; font-family: "microsoft yahei"; font-size: 14px; overflow: hidden;}
+.title{ padding: 10px 40px; border-bottom: 1px solid #eee; overflow: hidden;}
+.title h2{ display: block; padding-left: 6px; margin: 6px 0; line-height: 18px; border-left: 4px solid #e54; font-weight: normal; font-size: 18px;}
+/*添加管理员*/
+.addAdmin{ padding: 40px 20px; overflow: hidden; font-size: 14px; color: #333;}
+.addAdmin li{ overflow: hidden;}
+.addAdmin .int{ height: 45px; line-height: 45px; margin-bottom: 20px;}
+.addAdmin span,.addAdmin label{ display: inline-block; float: left; width: 70px; text-align: right; margin-right: 20px;}
+.addAdmin .inputTxt{ display:inline-block;  float: left; padding-left: 15px; width: 255px; height: 41px; line-height: 41px;  border: 1px solid #e1e1e1; border-radius: 4px; color: #a9a9a9; outline: none;}
+.addAdmin .submit{ display: block; margin: 10px 0 20px 90px; width: 275px; height: 48px; border: 1px solid #e1e1e1; outline: none; border-radius: 5px; font-size: 18px; line-height: 48px; text-align: center; color: #fff; background: #ea544a;}
+
+/*密码修改*/
+.user_pwd{ padding: 40px 20px; overflow: hidden;}
+.user_pwd .login{ display: block; overflow: hidden; font-size: 14px; color: #333;}
+.user_pwd .login a{ text-decoration: none;}
+.user_pwd .login .int{ padding-top: 20px; line-height: 43px; position: relative; overflow: hidden;}
+.user_pwd .int p{ display: none; position: absolute; top: 0; left: 90px; padding-left: 20px; height: 20px; line-height: 20px; color: #999; font-size: 12px;}
+.user_pwd .int p .warn{ display: inline-block; width: 14px; height: 14px;  background: url("../images/warn.jpg") no-repeat center center; position: absolute; top: 3px; left: 0; }
+.user_pwd .login label{ display: inline-block; float: left; width: 70px; text-align: right; margin-right: 20px;}
+.user_pwd .login .inputTxt{ display:inline-block;  float: left; padding-left: 15px; width: 255px; height: 41px; line-height: 41px;  border: 1px solid #e1e1e1; border-radius: 4px; color: #a9a9a9; outline: none;}
+.user_pwd .login .submit{ display: block; margin: 20px 0 20px 90px; width: 274px; height: 48px; border: 1px solid #e1e1e1; outline: none; border-radius: 5px; font-size: 18px; line-height: 48px; text-align: center; color: #fff; background: #ea544a;}
+
+/*余额充值*/
+.charge{ padding: 40px 20px; overflow: hidden;}
+.charge li{ margin-bottom: 20px; width: 300px; overflow: hidden;}
+.charge .sum,.charge .figure{ height: 30px; line-height: 30px;}
+.charge .sum span,.charge .figure label{ display: inline-block; float: left; width: 100px; margin-right: 8px; text-align: right;}
+.charge .sum span em{ color: #333; font-size: 14px;}
+.charge .charge_btn .submit{ width: 160px; height: 36px; line-height: 36px; padding: 0; margin: 10px 0 10px 108px; border: none; border-radius: 5px; outline: none;  font-size: 16px; color: #fff; background: #e54;}
+
+/*用户详情*/
+.userDetail{ padding: 20px 40px; overflow: hidden;}
+
+/*添加产品、通知*/
+.add{ padding: 20px 40px; overflow: hidden;}
+.add .proTxt{ border: 1px solid #ddd; padding: 0; margin: 0; height: 24px; width: 200px; line-height: 24px;}
+.add .submit{ padding: 5px 15px; margin: 0; outline: none; border: none; background: #999; color: #fff; font-family: "microsoft yahei";}
+.add .submit:hover{ background: #777;}
+/*添加产品分类*/
+.addCate{ padding: 20px 40px; overflow: hidden;}
+.addCate .cate,.addCate .cateDec{ width: 400px;}
+.addCate .submit{ padding: 5px 15px; margin: 0; outline: none; border: none; background: #999; color: #fff; font-family: "microsoft yahei";}
+.addCate .submit:hover{ background: #777;}
+/*修改产品、通知*/
+.alter{ padding: 20px 40px; overflow: hidden;}
+.alter table .inputTxt{ display: block; padding: 5px 10px; margin: 0; width: 200px; border: 1px solid #ddd; outline: none;}
+.alter textarea{ display: block; width: 200px; padding: 5px 10px;}
+.alter table .submit{ padding: 3px 15px; margin: 0; outline: none; border: none; background: #999; color: #fff; font-family: "microsoft yahei";}
+.alter table .submit:hover{ background: #777;}
+.alter .proPic{ width: 240px; overflow: hidden;}
+.alter .proPic img{ display: block; width: 240px; height: 135px;  margin-bottom: 50px;}
+.alter .proPic input{ display: block; width: 240px;}
+
+/*用户留言/系统通知*/
+.mes_list,.note_list{ padding: 20px 40px; overflow: hidden;}
+.mes_list th,.mes_list td,.note_list th,.note_list td{ border: 1px solid #ccc; padding: 8px 20px; color: #333; font-weight: normal; text-align: center;}
+
+
+
+/*表格样式*/
+.table th,.table td{ border: 1px solid #ccc; padding: 8px 20px; color: #333; font-weight: normal;}
+.table th{ background: #e8e8e8;text-align: right;}
+.table td{ text-align: left;}
+table .btn{ padding: 4px 16px; margin: 0 5px; background: #e8e8e8; font-family: "microsoft yahei"; border: none;}
+table .btn:hover{ background: #ccc;}
+/*公用*/
+.fl{ float: left;}
+.fr{ float: right;}
